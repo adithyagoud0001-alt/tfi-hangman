@@ -1,0 +1,21 @@
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node & Dependencies
+node_modules/
+
+# Vercel
+.vercel/
+
+# Editor & IDE files
+.vscode/
+.idea/
+*.sw?

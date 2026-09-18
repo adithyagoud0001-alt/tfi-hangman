@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 TFI HANGMAN — Telugu Cinema Movie Challenge</title>
+    <meta name="description" content="A dedicated, rich Hangman-style Telugu Cinema quiz game with indirect clues, progressive hints, and a massive verified TFI movie database (2000-2026).">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Accessibility Live Region for Screen Readers -->
+    <div id="sr-announcer" class="sr-only" aria-live="polite"></div>
+
+    <!-- Celebration Confetti Canvas -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- App Container -->
+    <div class="app-container">
+
+        <!-- Header / Navigation Bar -->
+        <header class="app-header">
+            <div class="header-left">
+                <button id="btn-home" class="icon-btn" title="Back to Main Menu" aria-label="Back to Main Menu">
+                    <span class="btn-icon">🎬</span>
+                    <span class="brand-text">TFI HANGMAN</span>
+                </button>
+                <div id="header-mode-badge" class="badge badge-subtle hidden">Normal Mode</div>
+            </div>
+
+            <div class="header-center">
+                <div class="score-display">
+                    <span class="score-label">SCORE</span>
+                    <span id="score-val" class="score-val">0</span>
+                </div>
+                <div class="streak-badge" title="Current Winning Streak">
+                    <span class="flame-icon">🔥</span>
+                    <span id="streak-val">0</span>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <button id="btn-sound" class="icon-btn" title="Toggle Sound Effects" aria-label="Toggle Sound Effects">
+                    <span id="sound-icon">🔊</span>
+                </button>
+                <button id="btn-stats" class="icon-btn" title="View Career Statistics" aria-label="View Career Statistics">
+                    <span>📊</span>
+                </button>
+                <button id="btn-help" class="icon-btn" title="How to Play" aria-label="How to Play">
+                    <span>❓</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main View Router -->
+        <main class="main-content">
+
+            <!-- 1. START SCREEN -->
+            <section id="screen-start" class="screen screen-start active">
+                <div class="hero-card glass-panel">
+                    <div class="hero-cinema-clapper">🎬</div>
+                    <h1 class="hero-title">TFI HANGMAN</h1>
+                    <p class="hero-subtitle">The Ultimate Telugu Cinema Knowledge Challenge</p>
+                    <div class="hero-divider"></div>
+                    <p class="hero-desc">
+                        Decode indirect narrative clues. Guess the letters. Celebrate Telugu cinema from <strong>2000 through 2026</strong>.
+                    </p>
+
+                    <!-- Filter Configurations -->
+                    <div class="config-grid">
+                        <!-- Mode Selector -->
+                        <div class="config-group">
+                            <label class="config-label">Game Mode</label>
+                            <div class="pill-group" role="radiogroup" aria-label="Game Mode">
+                                <button type="button" class="pill-btn active" data-mode="normal">
+                                    <span class="pill-title">Standard TFI</span>
+                                    <span class="pill-desc">Balanced mix of blockbusters & hits</span>
+                                </button>
+                                <button type="button" class="pill-btn" data-mode="deepcut">
+                                    <span class="pill-title">TFI Deep Cut 🎯</span>
+                                    <span class="pill-desc">Cult, indie, underrated & critical gems</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Difficulty Selector -->
+                        <div class="config-group">
+                            <label class="config-label">Difficulty</label>
+                            <div class="diff-btn-group" role="radiogroup" aria-label="Difficulty">
+                                <button type="button" class="diff-btn" data-diff="easy">Easy</button>
+                                <button type="button" class="diff-btn active" data-diff="medium">Medium</button>
+                                <button type="button" class="diff-btn" data-diff="hard">Hard</button>
+                                <button type="button" class="diff-btn" data-diff="random">Random</button>
+                            </div>
+                        </div>
+
+                        <!-- Genre Category Dropdown -->
+                        <div class="config-group">
+                            <label for="select-category" class="config-label">Category / Genre</label>
+                            <div class="custom-select-wrapper">
+                                <select id="select-category" class="custom-select" aria-label="Select Genre Category">
+                                    <option value="all">All Genres (Full Archive)</option>
+                                    <!-- Populated dynamically via JS -->
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Era Dropdown -->
+                        <div class="config-group">
+                            <label for="select-era" class="config-label">Cinema Era</label>
+                            <div class="custom-select-wrapper">
+                                <select id="select-era" class="custom-select" aria-label="Select Cinema Era">
+                                    <option value="all">All Eras (2000–2026)</option>
+                                    <option value="2000-2004">2000–2004 (Early 2000s Classic Era)</option>
+                                    <option value="2005-2009">2005–2009 (Golden Commercial Era)</option>
+                                    <option value="2010-2014">2010–2014 (Transformation Era)</option>
+                                    <option value="2015-2019">2015–2019 (Golden New-Wave Era)</option>
+                                    <option value="2020-2024">2020–2024 (Modern Pan-Indian Era)</option>
+                                    <option value="2025-2026">2025–2026 (Contemporary Releases)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Controls -->
+                    <div class="hero-actions">
+                        <button id="btn-start-game" class="btn-primary btn-glow">
+                            <span class="btn-text">START CHALLENGE</span>
+                            <span class="btn-arrow">▶</span>
+                        </button>
+                    </div>
+
+                    <!-- Quick Database Metric -->
+                    <div class="db-stats-badge">
+                        <span>Verified Database:</span>
+                        <strong id="db-count-text">310+ Movies</strong>
+                        <span>• 100% Original Telugu Cinema</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. GAME PLAY SCREEN -->
+            <section id="screen-game" class="screen screen-game">
+                
+                <!-- Game Status & Meta Row -->
+                <div class="game-meta-bar">
+                    <div class="meta-tag meta-era" id="game-era-badge">Era: 2015–2019</div>
+                    <div class="meta-tag meta-diff" id="game-diff-badge">Medium</div>
+                    <div class="meta-tag meta-genre" id="game-genre-badge">Thriller</div>
+                </div>
+
+                <!-- Indirect Question / Clue Card -->
+                <div class="clue-card glass-panel">
+                    <div class="clue-header">
+                        <span class="clue-icon">🎞️</span>
+                        <span class="clue-title-label">INDIRECT CLUE</span>
+                        <span class="clue-hint-indicator" id="clue-indicator">Decode the Premise</span>
+                    </div>
+                    <p id="clue-text" class="clue-text">
+                        Loading movie premise...
+                    </p>
+                </div>
+
+                <!-- Middle Arena: Hangman SVG + Attempts Counter -->
+                <div class="arena-grid">
+                    
+                    <!-- Hangman Visual Box -->
+                    <div class="hangman-box glass-panel">
+                        <svg id="hangman-svg" viewBox="0 0 200 240" class="hangman-svg" aria-label="Hangman Visual Progression">
+                            <!-- Definitions for Glow Effect -->
+                            <defs>
+                                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                                    <feGaussianBlur stdDeviation="2.5" result="blur" />
+                                    <feMerge>
+                                        <feMergeNode in="blur" />
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                            </defs>
+
+                            <!-- Gallows Base Parts (Always visible gallows structure) -->
+                            <!-- Ground Base -->
+                            <line x1="20" y1="225" x2="180" y2="225" class="gallows-base" />
+                            <!-- Vertical Post -->
+                            <line x1="50" y1="225" x2="50" y2="25" class="gallows-wood" />
+                            <!-- Top Beam -->
+                            <line x1="45" y1="25" x2="140" y2="25" class="gallows-wood" />
+                            <!-- Support Strut -->
+                            <line x1="50" y1="60" x2="85" y2="25" class="gallows-wood" />
+                            <!-- Noose Rope -->
+                            <line x1="130" y1="25" x2="130" y2="58" class="gallows-rope" />
+
+                            <!-- Hangman 7 Mistake Progression Parts -->
+                            <!-- Part 1: Head (Mistake 1) -->
+                            <circle id="hang-head" cx="130" cy="74" r="16" class="hang-part hang-head" />
+                            <!-- Face details -->
+                            <g id="hang-face" class="hang-face">
+                                <circle cx="125" cy="72" r="1.5" class="face-detail" />
+                                <circle cx="135" cy="72" r="1.5" class="face-detail" />
+                                <path id="face-mouth" d="M 126 80 Q 130 83 134 80" class="face-detail" />
+                            </g>
+                            
+                            <!-- Part 2: Body / Torso (Mistake 2) -->
+                            <line id="hang-body" x1="130" y1="90" x2="130" y2="150" class="hang-part" />
+                            
+                            <!-- Part 3: Left Arm (Mistake 3) -->
+                            <line id="hang-arm-l" x1="130" y1="105" x2="102" y2="132" class="hang-part" />
+                            
+                            <!-- Part 4: Right Arm (Mistake 4) -->
+                            <line id="hang-arm-r" x1="130" y1="105" x2="158" y2="132" class="hang-part" />
+                            
+                            <!-- Part 5: Left Leg (Mistake 5) -->
+                            <line id="hang-leg-l" x1="130" y1="150" x2="105" y2="195" class="hang-part" />
+                            
+                            <!-- Part 6: Right Leg (Mistake 6) -->
+                            <line id="hang-leg-r" x1="130" y1="150" x2="155" y2="195" class="hang-part" />
+
+                            <!-- Part 7: Final Distress Effect (Mistake 7 - Game Over) -->
+                            <g id="hang-gameover" class="hang-part">
+                                <line x1="122" y1="68" x2="128" y2="74" class="cross-eye" />
+                                <line x1="128" y1="68" x2="122" y2="74" class="cross-eye" />
+                                <line x1="132" y1="68" x2="138" y2="74" class="cross-eye" />
+                                <line x1="138" y1="68" x2="132" y2="74" class="cross-eye" />
+                            </g>
+                        </svg>
+
+                        <!-- Attempts Remaining Status -->
+                        <div class="attempts-container">
+                            <div class="attempts-header">
+                                <span class="attempts-title">Remaining Mistakes:</span>
+                                <span id="attempts-val" class="attempts-counter">7 / 7</span>
+                            </div>
+                            <div class="pips-track" id="pips-track" aria-label="Mistakes Indicator">
+                                <span class="pip pip-active"></span>
+                                <span class="pip pip-active"></span>
+                                <span class="pip pip-active"></span>
+                                <span class="pip pip-active"></span>
+                                <span class="pip pip-active"></span>
+                                <span class="pip pip-active"></span>
+                                <span class="pip pip-active"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Progressive Hint Station -->
+                    <div class="hints-box glass-panel">
+                        <div class="hints-header">
+                            <div class="hints-title-wrap">
+                                <span class="bulb-icon">💡</span>
+                                <span class="hints-title">Progressive Hints</span>
+                            </div>
+                            <span id="hints-count-badge" class="badge badge-accent">3 Available</span>
+                        </div>
+
+                        <p class="hints-desc">
+                            Each hint costs <strong>-10 points</strong>. Hints provide progressive thematic, contextual, and distinctive clues without spoiling the title.
+                        </p>
+
+                        <!-- Revealed Hints Accordion List -->
+                        <div id="revealed-hints-list" class="revealed-hints-list">
+                            <div class="hint-placeholder-msg" id="hint-placeholder">
+                                No hints requested yet. Need assistance? Click below.
+                            </div>
+                        </div>
+
+                        <button id="btn-use-hint" class="btn-secondary btn-hint">
+                            <span>💡 Reveal Next Hint (-10 pts)</span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <!-- Hidden Movie Title Slots -->
+                <div class="word-display-section glass-panel">
+                    <div class="title-helper-label">GUESS THE TELUGU MOVIE:</div>
+                    <div id="word-slots-container" class="word-slots-container" aria-label="Movie Title Hidden Letters">
+                        <!-- Populated by JavaScript into wrapped words -->
+                    </div>
+                </div>
+
+                <!-- On-Screen Virtual Keyboard -->
+                <div class="keyboard-section">
+                    <div id="virtual-keyboard" class="virtual-keyboard" role="group" aria-label="Letter Input Keyboard">
+                        <!-- Keys A to Z generated dynamically -->
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>TFI Hangman • Dedicated to 25+ Years of Telugu Cinema Glory • Pure Vanilla HTML, CSS & JavaScript</p>
+        </footer>
+
+    </div>
+
+    <!-- MODAL 1: ROUND RESULT MODAL (WIN / LOSS) -->
+    <div id="modal-result" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-dialog glass-panel animate-pop">
+            
+            <div class="modal-header-graphic" id="modal-graphic">🎉</div>
+
+            <h2 id="modal-status-title" class="modal-status-title">MOVIE SOLVED!</h2>
+            <p id="modal-status-sub" class="modal-status-sub">Spectacular TFI Knowledge!</p>
+
+            <!-- Solved Movie Banner -->
+            <div class="movie-reveal-card">
+                <div class="reveal-titles">
+                    <h3 id="reveal-eng-title" class="reveal-eng-title">RANGASTHALAM</h3>
+                    <div id="reveal-tel-title" class="reveal-tel-title">రంగస్థలం</div>
+                </div>
+
+                <div class="reveal-meta-chips">
+                    <span id="reveal-year-chip" class="chip">2018</span>
+                    <span id="reveal-genre-chip" class="chip">Period Drama</span>
+                    <span id="reveal-era-chip" class="chip">2015-2019</span>
+                </div>
+
+                <div class="reveal-credits-grid">
+                    <div class="credit-item">
+                        <span class="credit-label">Director</span>
+                        <span id="reveal-director" class="credit-val">Sukumar</span>
+                    </div>
+                    <div class="credit-item">
+                        <span class="credit-label">Lead Cast</span>
+                        <span id="reveal-actors" class="credit-val">Ram Charan, Samantha Ruth Prabhu</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Round Score Breakdown -->
+            <div class="score-breakdown-card">
+                <div class="breakdown-row">
+                    <span>Round Points Earned:</span>
+                    <strong id="breakdown-round-score" class="text-gold">+90</strong>
+                </div>
+                <div class="breakdown-row">
+                    <span>Hints Penalty:</span>
+                    <span id="breakdown-hint-penalty" class="text-danger">0</span>
+                </div>
+                <div class="breakdown-row breakdown-total">
+                    <span>Total Game Score:</span>
+                    <strong id="breakdown-total-score" class="text-success">180</strong>
+                </div>
+                <div class="breakdown-row">
+                    <span>Current Streak:</span>
+                    <strong id="breakdown-streak" class="text-gold">🔥 4</strong>
+                </div>
+            </div>
+
+            <!-- Modal Action Buttons -->
+            <div class="modal-btn-row">
+                <button id="btn-next-movie" class="btn-primary btn-glow">
+                    <span>NEXT MOVIE ❯</span>
+                </button>
+                <button id="btn-modal-menu" class="btn-secondary">
+                    <span>Main Menu</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 2: STATISTICS MODAL -->
+    <div id="modal-stats" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-dialog glass-panel animate-pop">
+            <div class="modal-header-bar">
+                <h2 class="modal-title">📊 CAREER STATISTICS</h2>
+                <button id="btn-close-stats" class="close-btn" aria-label="Close Statistics">&times;</button>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🏆</div>
+                    <div id="stat-high-score" class="stat-number">0</div>
+                    <div class="stat-caption">High Score</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🎮</div>
+                    <div id="stat-games-played" class="stat-number">0</div>
+                    <div class="stat-caption">Games Played</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🎯</div>
+                    <div id="stat-win-rate" class="stat-number">0%</div>
+                    <div class="stat-caption">Win Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🔥</div>
+                    <div id="stat-curr-streak" class="stat-number">0</div>
+                    <div class="stat-caption">Current Streak</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⭐</div>
+                    <div id="stat-best-streak" class="stat-number">0</div>
+                    <div class="stat-caption">Best Streak</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🍿</div>
+                    <div id="stat-solved-count" class="stat-number">0</div>
+                    <div class="stat-caption">Movies Solved</div>
+                </div>
+            </div>
+
+            <div class="stats-footer">
+                <button id="btn-reset-stats" class="btn-danger-outline">
+                    <span>Reset All Statistics</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 3: HOW TO PLAY / RULES MODAL -->
+    <div id="modal-help" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-dialog glass-panel animate-pop">
+            <div class="modal-header-bar">
+                <h2 class="modal-title">ℹ️ HOW TO PLAY</h2>
+                <button id="btn-close-help" class="close-btn" aria-label="Close Rules">&times;</button>
+            </div>
+
+            <div class="help-content">
+                <div class="help-rule-item">
+                    <span class="rule-badge">1</span>
+                    <div class="rule-body">
+                        <strong>Decode the Clue:</strong> Read the indirect premise, theme, or narrative clue describing a real Telugu film released between 2000 and 2026.
+                    </div>
+                </div>
+
+                <div class="help-rule-item">
+                    <span class="rule-badge">2</span>
+                    <div class="rule-body">
+                        <strong>Guess Letters:</strong> Use your physical keyboard or the on-screen keypad (A–Z). Spaces and punctuation are already revealed for you.
+                    </div>
+                </div>
+
+                <div class="help-rule-item">
+                    <span class="rule-badge">3</span>
+                    <div class="rule-body">
+                        <strong>7 Attempts:</strong> You are allowed 7 incorrect guesses before the Hangman is completed and the round is lost.
+                    </div>
+                </div>
+
+                <div class="help-rule-item">
+                    <span class="rule-badge">4</span>
+                    <div class="rule-body">
+                        <strong>Progressive Hints:</strong> Up to 3 hints per round (Theme, Context, Distinctive Detail). Each hint costs -10 points. Score never drops below 0.
+                    </div>
+                </div>
+
+                <div class="help-rule-item">
+                    <span class="rule-badge">5</span>
+                    <div class="rule-body">
+                        <strong>TFI Deep Cut Mode:</strong> Challenge your inner cinephile with cult favorites, indie productions, and critically acclaimed gems!
+                    </div>
+                </div>
+
+                <div class="scoring-guide">
+                    <h4>SCORING SYSTEM</h4>
+                    <ul>
+                        <li>Correct Letter: <strong class="text-success">+10 pts</strong></li>
+                        <li>Incorrect Guess: <strong class="text-danger">-5 pts</strong></li>
+                        <li>Movie Solved: <strong class="text-gold">+50 pts</strong></li>
+                        <li>Hint Used: <strong class="text-accent">-10 pts</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- External Database Script (Must precede script.js) -->
+    <script src="movies.js"></script>
+    <!-- Game Engine Logic Script -->
+    <script src="script.js"></script>
+</body>
+</html>
