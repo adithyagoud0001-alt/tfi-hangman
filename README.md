@@ -8,7 +8,7 @@ Built strictly with **Vanilla HTML5, CSS3, and JavaScript** — zero external UI
 
 ## 🌟 Highlights
 
-- **314 Verified Telugu Movies (2000–2026)**:
+- **350 Verified Telugu Movies (2000–2026)**:
   - 100% original Telugu films across 6 eras (no dubs or TV shows).
   - Authentic Telugu script titles (`తెలుగు టైటిల్స్`), directors, cast, release years, and genres.
   - 4–6 indirect narrative/thematic clues per film (all strictly audited with zero direct title leaks).

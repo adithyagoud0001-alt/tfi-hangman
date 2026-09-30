@@ -1,6 +1,6 @@
 /**
  * TFI HANGMAN - Comprehensive Telugu Movie Database (2000-2026)
- * Total verified films: 314
+ * Total verified films: 350
  * Strictly verified Telugu-language films from Tollywood.
  * Every movie includes verified title, Telugu script, director, leads, year, genres, clues, and progressive hints.
  */
@@ -10214,6 +10214,1187 @@ const movies = [
             "The five-letter Japanese-derived title translates to 'The Future'."
         ],
         "id": 314
+    },
+    {
+        "id": 315,
+        "title": "DEVARA: PART 1",
+        "displayTitle": "Devara: Part 1",
+        "teluguTitle": "దేవర: పార్ట్ 1",
+        "year": 2024,
+        "director": "Koratala Siva",
+        "actors": [
+            "Jr NTR",
+            "Janhvi Kapoor",
+            "Saif Ali Khan",
+            "Shruti Marathe"
+        ],
+        "genres": [
+            "Action",
+            "Drama",
+            "Period Drama"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2020-2024",
+        "clues": [
+            "Set in a rugged coastal enclave known as the Red Sea, a fearless chieftain bans the smuggling of illicit weapons after realizing his clan is aiding terrorism.",
+            "His betrayal by a conniving brother-in-arms leads to a secret pact and a haunting legend that keeps criminals terrified of the shores for decades.",
+            "Anirudh Ravichander delivered an earth-shattering coastal soundtrack featuring the viral tracks 'Fear Song' and 'Chuttamalle'.",
+            "A father-son dual role where the timid son returns to the treacherous seas to face his father's old nemesis, Bhaira."
+        ],
+        "hints": [
+            "A coastal warrior from the four villages of the Red Sea battles ruthless sea pirates.",
+            "A mass action epic starring the Young Tiger alongside Bollywood stars making their Telugu debuts.",
+            "The title is the fearsome chieftain's name, meaning divine protector or deity."
+        ]
+    },
+    {
+        "id": 316,
+        "title": "KA",
+        "displayTitle": "Ka",
+        "teluguTitle": "క",
+        "year": 2024,
+        "director": "Sujith & Sandeep",
+        "actors": [
+            "Kiran Abbavaram",
+            "Nayan Sarika",
+            "Tanvi Ram",
+            "Achyuth Kumar"
+        ],
+        "genres": [
+            "Mystery",
+            "Thriller",
+            "Period Drama"
+        ],
+        "difficulty": "medium",
+        "popularity": "cult",
+        "era": "2020-2024",
+        "clues": [
+            "In late 1970s southern India, an inquisitive postman who habitually reads residents' personal letters is trapped inside an enigmatic interrogation room with no exit.",
+            "A masked interrogator subjects the captive protagonist to hypnotic memory regression to locate a missing young village woman.",
+            "Set in the uniquely isolated valley village of Krishnagiri, where the sun sets abruptly by 3 PM due to towering surrounding mountain peaks.",
+            "The climax features a mind-bending karmic philosophy that ties the protagonist's intrusive curiosity to an ancient cyclical punishment."
+        ],
+        "hints": [
+            "Abhinaya Vasudev arrives as a temporary village postman and unravels a sinister ring targeting young women.",
+            "A critically acclaimed retro suspense thriller set in an isolated valley surrounded by impenetrable hilltops.",
+            "The title is a single consonant letter representing the first sound in the Telugu varnamala."
+        ]
+    },
+    {
+        "id": 317,
+        "title": "OM BHEEM BUSH",
+        "displayTitle": "Om Bheem Bush",
+        "teluguTitle": "ఓం భీమ్ బుష్",
+        "year": 2024,
+        "director": "Sree Harsha Konuganti",
+        "actors": [
+            "Sree Vishnu",
+            "Priyadarshi",
+            "Rahul Ramakrishna",
+            "Preethi Mukundhan"
+        ],
+        "genres": [
+            "Comedy",
+            "Horror",
+            "Fantasy"
+        ],
+        "difficulty": "easy",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "Three eccentric, unemployed doctorate students in modern science venture into a superstitious village claiming to be high-tech paranormal treasure hunters.",
+            "The trio opens a bogus scientific bureau named 'Bang Bros' to trick gullible villagers into funding their treasure search inside the dreaded Sampangi Mahal.",
+            "Reunites the celebrated comedy trio from Brochevarevarura in a madcap spooky caper.",
+            "The supernatural treasure hunt takes an unexpected humanitarian turn addressing the tragic plight of an ostracized centuries-old royal ghost."
+        ],
+        "hints": [
+            "Three Ph.D. scholars hunt for lost treasure in a haunted mansion called Sampangi Mahal.",
+            "The tagline of this wacky horror-comedy promises: 'No Logic, Only Magic'.",
+            "The three-word title is an energetic spoof of a classic magical rhyme chanted by street magicians."
+        ]
+    },
+    {
+        "id": 318,
+        "title": "GANGS OF GODAVARI",
+        "displayTitle": "Gangs of Godavari",
+        "teluguTitle": "గ్యాంగ్స్ ఆఫ్ గోదావరి",
+        "year": 2024,
+        "director": "Krishna Chaitanya",
+        "actors": [
+            "Vishwak Sen",
+            "Anjali",
+            "Neha Shetty",
+            "Nassar"
+        ],
+        "genres": [
+            "Action",
+            "Crime",
+            "Period Drama"
+        ],
+        "difficulty": "easy",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "A ruthless, opportunistic street orphan named Tiger Ratnakar rises through local political rivalries and sand quarry syndicates in the Eluru delta.",
+            "Set across the 1980s and 1990s, charting the protagonist's transition from a petty thieving hoodlum to an influential legislative kingmaker.",
+            "Yuvan Shankar Raja scored the energetic rural music, including the viral dance anthem 'Suttamla Soosi'.",
+            "The raw narrative captures the turbulent intersection of caste politics, riverbank smuggling, and political betrayals."
+        ],
+        "hints": [
+            "Rathna journeys from the lower strata of river delta society into corrupt regional politics.",
+            "A gritty period crime drama exploring the sand mafia and delta underworld.",
+            "The title couples criminal syndicates with the largest sacred river basin of Andhra Pradesh."
+        ]
+    },
+    {
+        "id": 319,
+        "title": "DOUBLE ISMART",
+        "displayTitle": "Double iSmart",
+        "teluguTitle": "డబుల్ ఇస్మార్ట్",
+        "year": 2024,
+        "director": "Puri Jagannadh",
+        "actors": [
+            "Ram Pothineni",
+            "Sanjay Dutt",
+            "Kavya Thapar",
+            "Sayaji Shinde"
+        ],
+        "genres": [
+            "Action",
+            "Sci-Fi",
+            "Comedy"
+        ],
+        "difficulty": "easy",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "A dying international underworld don diagnosed with terminal brain glioma seeks digital immortality by transferring his consciousness into a lively street-smart thug.",
+            "The energetic Hyderabadi hero struggles with dual conflicting personalities after memory-transfer chips are surgically fused into his skull.",
+            "Marks veteran Bollywood star Sanjay Dutt's high-octane antagonist debut in Telugu cinema as the ruthless gangster Big Bull.",
+            "Mani Sharma composed the pounding mass beats, featuring chartbusters like 'Steppa Maar'."
+        ],
+        "hints": [
+            "Shankar from Hyderabad finds his memories hijacked by the fearsome villain Big Bull.",
+            "The direct sci-fi action sequel to a 2019 energetic street blockbuster.",
+            "The title doubles the moniker of Hyderabad's most hyperactive street-smart hero."
+        ]
+    },
+    {
+        "id": 320,
+        "title": "MR. BACHCHAN",
+        "displayTitle": "Mr. Bachchan",
+        "teluguTitle": "మిస్టర్ బచ్చన్",
+        "year": 2024,
+        "director": "Harish Shankar",
+        "actors": [
+            "Ravi Teja",
+            "Bhagyashri Borse",
+            "Jagapathi Babu",
+            "Sachin Khedekar"
+        ],
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "difficulty": "easy",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "An unyielding, suspended Income Tax officer who is an ardent fan of Hindi cinema's 'Angry Young Man' conducts an audacious raid on an untouchable politician's fortress.",
+            "Adapted from the real-life longest tax raid on an influential industrialist in northern India during the late twentieth century.",
+            "Introduced Bhagyashri Borse as the romantic interest Jikki, set against nostalgic retro melodies and cassette-era aesthetics.",
+            "Mickey J. Meyer rendered classic-sounding melodies including 'Sitarar' that gained widespread social media popularity."
+        ],
+        "hints": [
+            "An honest tax officer named Anand locks horns with the menacing feudal strongman Mutyam Jaggu.",
+            "An adaptation of the Hindi thriller Raid, reimagined with commercial mass sensibilities.",
+            "The protagonist is affectionately nicknamed after the legendary Hindi superstar of Sholay and Deewaar."
+        ]
+    },
+    {
+        "id": 321,
+        "title": "MARUTHI NAGAR SUBRAMANYAM",
+        "displayTitle": "Maruthi Nagar Subramanyam",
+        "teluguTitle": "మారుతి నగర్ సుబ్రమణ్యం",
+        "year": 2024,
+        "director": "Lakshman Karya",
+        "actors": [
+            "Rao Ramesh",
+            "Indraja",
+            "Ankith Koyya",
+            "Ramya Pasupuleti"
+        ],
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Family"
+        ],
+        "difficulty": "medium",
+        "popularity": "cult",
+        "era": "2020-2024",
+        "clues": [
+            "A middle-aged, perpetually unemployed government job aspirant discovers that a staggering fortune of ten lakh rupees has mysteriously landed in his bank account.",
+            "Believing the windfall came from an illicit ancestral secret or a prominent celebrity relation, the eccentric protagonist starts splurging with comical consequences.",
+            "Provided veteran character actor Rao Ramesh his career-defining first solo lead theatrical performance.",
+            "A heart-warming middle-class family comedy exploring the hilarious confusion between parentage, money, and parental dignity."
+        ],
+        "hints": [
+            "A jobless middle-class father in an urban residential colony struggles when unexpected riches enter his bank account.",
+            "A wholesome comedy drama celebrated for Rao Ramesh's comic timing alongside Indraja.",
+            "The title pairs a fictional suburban residential colony with the middle-aged protagonist's name."
+        ]
+    },
+    {
+        "id": 322,
+        "title": "JANAKA AITHE GANAKA",
+        "displayTitle": "Janaka Aithe Ganaka",
+        "teluguTitle": "జనక అయితే గనక",
+        "year": 2024,
+        "director": "Sandeep Bandla",
+        "actors": [
+            "Suhas",
+            "Sangeerthana Vipin",
+            "Vennela Kishore",
+            "Rajendra Prasad"
+        ],
+        "genres": [
+            "Comedy",
+            "Courtroom Drama",
+            "Social Drama"
+        ],
+        "difficulty": "medium",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "An anxious middle-class sales executive refuses to bear children because of skyrocketing schooling fees and files a bizarre lawsuit against a contraceptive manufacturer.",
+            "When his wife conceives unexpectedly despite precautions, the protagonist sues a multinational condom corporation for product deficiency.",
+            "Vennela Kishore provides uproarious courtroom comedy as the opposing corporate defense attorney.",
+            "Produced by Dil Raju Productions, blending sharp middle-class financial realism with light-hearted family entertainment."
+        ],
+        "hints": [
+            "Prasad sues a major medical company for one crore rupees when family planning fails.",
+            "A humorous courtroom battle questioning modern private school inflation and the financial anxieties of parenting.",
+            "The rhyming Telugu title translates to: 'If One Were to Become a Father'."
+        ]
+    },
+    {
+        "id": 323,
+        "title": "PRASANNA VADANAM",
+        "displayTitle": "Prasanna Vadanam",
+        "teluguTitle": "ప్రసన్న వదనం",
+        "year": 2024,
+        "director": "Sukumar Suhas",
+        "actors": [
+            "Suhas",
+            "Payal Radhakrishna",
+            "Rashi Singh",
+            "Harsha Chemudu"
+        ],
+        "genres": [
+            "Thriller",
+            "Mystery",
+            "Psychological Thriller"
+        ],
+        "difficulty": "medium",
+        "popularity": "cult",
+        "era": "2020-2024",
+        "clues": [
+            "An RJ who lost his parents in a tragic car accident suffers from prosopagnosia (the neurological inability to recognize human faces).",
+            "He accidentally witnesses a brutal hit-and-run murder but cannot identify the killers because everyone's face appears as a blank blur.",
+            "The corrupt police officers who committed the crime discover his rare disability and try to frame him as the prime suspect.",
+            "The hero must outwit relentless killers relying purely on voices, walking gaits, perfume scents, and physical mannerisms."
+        ],
+        "hints": [
+            "Surya battles face-blindness while trying to escape a corrupt ACP's sinister conspiracy.",
+            "A suspenseful edge-of-the-seat thriller centered on a medical condition known as face-blindness.",
+            "The Sanskrit-derived Telugu title ironically refers to a 'pleasant or cheerful countenance'."
+        ]
+    },
+    {
+        "id": 324,
+        "title": "RAZAKAR",
+        "displayTitle": "Razakar",
+        "teluguTitle": "రజాకార్",
+        "year": 2024,
+        "director": "Yata Satyanarayana",
+        "actors": [
+            "Bobby Simha",
+            "Vedhika",
+            "Raj Arjun",
+            "Anasuya Bharadwaj"
+        ],
+        "genres": [
+            "Historical",
+            "Period Drama",
+            "Action"
+        ],
+        "difficulty": "medium",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "Chronicles the brutal socio-political turmoil in the princely state of Hyderabad in 1947–1948 following India's independence.",
+            "Depicts the ruthless private militia led by Kasim Razvi and the heroic peasant rebellion across Telangana villages.",
+            "Culminates in Sardar Vallabhbhai Patel sanctioning Operation Polo to liberate Hyderabad and annex it into the Indian Union.",
+            "Features Bobby Simha delivering an intense performance as the fearless peasant resistance leader Rajireddy."
+        ],
+        "hints": [
+            "The historic struggle of Telangana villagers fighting for freedom against the Nizam's oppressive paramilitary forces.",
+            "Depicts the horrific events preceding the police action of Operation Polo in September 1948.",
+            "The single-word historical title is the Arabic-origin term used for the fanatic paramilitary wing of the Majlis."
+        ]
+    },
+    {
+        "id": 325,
+        "title": "OPERATION VALENTINE",
+        "displayTitle": "Operation Valentine",
+        "teluguTitle": "ఆపరేషన్ వాలెంటైన్",
+        "year": 2024,
+        "director": "Shakti Pratap Singh Hada",
+        "actors": [
+            "Varun Tej",
+            "Manushi Chhillar",
+            "Navdeep",
+            "Mir Sarwar"
+        ],
+        "genres": [
+            "Action",
+            "War",
+            "Thriller"
+        ],
+        "difficulty": "medium",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "An elite Indian Air Force fighter pilot struggling with past flight trauma leads a retaliatory aerial strike following a devastating terrorist attack on a military convoy.",
+            "Inspired by the true events of the 2019 Pulwama terror attack and India's subsequent Balakot precision airstrikes.",
+            "Shot simultaneously in Telugu and Hindi, featuring extensive aerial dogfight visual effects supervised by technical experts.",
+            "Manushi Chhillar stars alongside the protagonist as an astute Air Force radar controller commanding flight communications."
+        ],
+        "hints": [
+            "Wing Commander Arjun Dev takes to the skies to defend Indian airspace against hostile fighter jets.",
+            "A patriotic military aviation thriller honoring the bravery of Indian Air Force pilots.",
+            "The two-word title combines a military combat mission with the calendar day on which the Pulwama tragedy occurred."
+        ]
+    },
+    {
+        "id": 326,
+        "title": "ZEBRA",
+        "displayTitle": "Zebra",
+        "teluguTitle": "జీబ్రా",
+        "year": 2024,
+        "director": "Eashvar Karthic",
+        "actors": [
+            "Satyadev",
+            "Daali Dhananjaya",
+            "Priya Bhavani Shankar",
+            "Sunil"
+        ],
+        "genres": [
+            "Crime",
+            "Thriller",
+            "Action"
+        ],
+        "difficulty": "medium",
+        "popularity": "cult",
+        "era": "2020-2024",
+        "clues": [
+            "An honest bank auditor is entrapped in a labyrinth of financial wire fraud, international money laundering, and ruthless mafia kingpins.",
+            "Features a fierce game of wits between a sharp corporate white-collar employee and a cold-blooded underworld enforcer.",
+            "Kannada star Daali Dhananjaya made a striking Telugu screen appearance as the flamboyant villain Felix.",
+            "Ravi Basrur supplied an adrenaline-pumping, percussion-heavy original soundtrack and background score."
+        ],
+        "hints": [
+            "Surya finds his banking career shattered when he is coerced into executing an impossible heist.",
+            "A multi-starrer financial crime thriller with the tagline: 'Where the black money meets the white money'.",
+            "The five-letter title is named after the striped African animal that symbolizes black-and-white dualities."
+        ]
+    },
+    {
+        "id": 327,
+        "title": "POTEL",
+        "displayTitle": "Potel",
+        "teluguTitle": "పొటేల్",
+        "year": 2024,
+        "director": "Sahit Mothkhuri",
+        "actors": [
+            "Yuva Chandraa",
+            "Ananya Nagalla",
+            "Ajay Ghosh",
+            "Noel Sean"
+        ],
+        "genres": [
+            "Drama",
+            "Period Drama",
+            "Action"
+        ],
+        "difficulty": "hard",
+        "popularity": "cult",
+        "era": "2020-2024",
+        "clues": [
+            "In a 1970s feudal Telangana hamlet, an uneducated sheep-grazer defies oppressive caste hierarchies and a despotic Patel to educate his young daughter.",
+            "Ajay Ghosh delivers a terrifying performance as the tyrannical village headman who claims authority over local lives and deities.",
+            "The narrative revolves around the village's sacred ceremonial ram, whose sacrificial dedication is manipulated by feudal masters.",
+            "Acclaimed for its raw rural atmosphere, folklore elements, and Shekar Chandra's haunting indigenous background score."
+        ],
+        "hints": [
+            "Eshwar battles superstitious village authorities to send his daughter Saraswathi to school.",
+            "A poignant period rural drama exploring the transformative power of basic literacy over feudal oppression.",
+            "The single-word Telangana vernacular title refers to a sacrificial breeding male sheep or ram."
+        ]
+    },
+    {
+        "id": 328,
+        "title": "SARANGAPANI JATHAKAM",
+        "displayTitle": "Sarangapani Jathakam",
+        "teluguTitle": "సారంగపాణి జాతకం",
+        "year": 2024,
+        "director": "Mohanakrishna Indraganti",
+        "actors": [
+            "Priyadarshi",
+            "Roopa Koduvayur",
+            "Naresh",
+            "Vennela Kishore"
+        ],
+        "genres": [
+            "Comedy",
+            "Romance",
+            "Drama"
+        ],
+        "difficulty": "medium",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "A naive, superstitious young man who is obsessively dependent on astrological horoscopes is shattered when an astrologer foretells that he is destined to commit a murder.",
+            "To prevent destiny from forcing him to kill someone he loves, the panic-stricken protagonist desperately searches for a villain worthy of being murdered.",
+            "Director Mohanakrishna Indraganti crafts a sophisticated verbal screwball comedy starring Priyadarshi in his career prime.",
+            "Features veteran comedian Naresh and Vennela Kishore in side-splitting ensemble character roles."
+        ],
+        "hints": [
+            "A man convinced his palmistry lines foretell a crime tries to control destiny with hilarious consequences.",
+            "A light-hearted family comedy about the absurdity of blind belief in astrology.",
+            "The two-word title joins the hero's traditional name with the Telugu word for astrological horoscope."
+        ]
+    },
+    {
+        "id": 329,
+        "title": "MECHANIC ROCKY",
+        "displayTitle": "Mechanic Rocky",
+        "teluguTitle": "మెకానిక్ రాకీ",
+        "year": 2024,
+        "director": "Ravi Teja Mullapudi",
+        "actors": [
+            "Vishwak Sen",
+            "Meenakshi Chaudhary",
+            "Shraddha Srinath",
+            "Sunil"
+        ],
+        "genres": [
+            "Action",
+            "Comedy",
+            "Thriller"
+        ],
+        "difficulty": "easy",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "A light-hearted automobile mechanic who inherited a driving academy from his father must defend his ancestral garage land from a cunning corporate land-grabber.",
+            "The interval block delivers a sharp tonal twist transitioning from a breezy neighborhood romance into a gripping triangular brain battle.",
+            "Jakes Bejoy composed an energetic soundtrack featuring catchy club beats and action themes.",
+            "Shraddha Srinath plays a sharp advocate while Meenakshi Chaudhary plays the deceptive love interest."
+        ],
+        "hints": [
+            "Rakesh defends his dad's precious driving school plot against the ruthless villain RankSan.",
+            "An action entertainer packed with mass attitude and unexpected courtroom twists.",
+            "The title combines the protagonist's vocational profession with his street nickname."
+        ]
+    },
+    {
+        "id": 330,
+        "title": "THE RAJA SAAB",
+        "displayTitle": "The Raja Saab",
+        "teluguTitle": "ది రాజా సాబ్",
+        "year": 2025,
+        "director": "Maruthi",
+        "actors": [
+            "Prabhas",
+            "Nidhhi Agerwal",
+            "Malavika Mohanan",
+            "Riddhi Kumar"
+        ],
+        "genres": [
+            "Horror",
+            "Comedy",
+            "Romance"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2025-2026",
+        "clues": [
+            "A charming, romantic protagonist enters a sprawling vintage royal estate where terrifying paranormal occurrences clash with quirky laughs.",
+            "A major romantic horror-comedy spectacle presenting the Rebel Star in a colorful, vintage, flamboyant avatar.",
+            "Thaman S. composed the energetic musical score for this grand pan-Indian festive release.",
+            "Features an imposing ancestral palace setting with eerie supernatural possessions and royal family mysteries."
+        ],
+        "hints": [
+            "A royal haunted estate filled with eccentric family heirlooms and ghostly apparitions.",
+            "A high-budget entertainer mixing spooky horror twists with romantic vintage fun.",
+            "The three-word royal title confers aristocratic gentleman status upon the protagonist."
+        ]
+    },
+    {
+        "id": 331,
+        "title": "THEY CALL HIM OG",
+        "displayTitle": "They Call Him OG",
+        "teluguTitle": "దే కాల్ హిమ్ ఓజీ",
+        "year": 2025,
+        "director": "Sujeeth",
+        "actors": [
+            "Pawan Kalyan",
+            "Emraan Hashmi",
+            "Priyanka Mohan",
+            "Arjun Das"
+        ],
+        "genres": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2025-2026",
+        "clues": [
+            "A legendary, vanished mafia enforcer named Ojas Gambheera returns to the gritty underworld of Mumbai after a ten-year hiatus to settle blood-soaked debts.",
+            "Features stylized Japanese samurai swordplay aesthetics blended with lethal firearm shootouts.",
+            "Marks prominent Bollywood actor Emraan Hashmi's Telugu cinema debut as the menacing antagonist Omi Bhau.",
+            "Thaman S.'s adrenaline-fuelled background theme 'Firestorm' became an instant sensation among cinema fans."
+        ],
+        "hints": [
+            "Ojas Gambheera slashes his way through Mumbai's ports with lethal katana blades.",
+            "A slick gangster action thriller directed by the filmmaker of Saaho.",
+            "The four-word title declares what the underworld whispers about the 'Original Gangster'."
+        ]
+    },
+    {
+        "id": 332,
+        "title": "VISHWAMBHARA",
+        "displayTitle": "Vishwambhara",
+        "teluguTitle": "విశ్వంభర",
+        "year": 2025,
+        "director": "Mallidi Vassishta",
+        "actors": [
+            "Chiranjeevi",
+            "Trisha Krishnan",
+            "Ashika Ranganath",
+            "Kunal Kapoor"
+        ],
+        "genres": [
+            "Fantasy",
+            "Action",
+            "Adventure"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2025-2026",
+        "clues": [
+            "A mortal hero journeys beyond the earthly realm into mystical celestial worlds to protect the universe from ancient dark demonic forces.",
+            "A colossal socio-fantasy epic directed by the visionary maker of the supernatural hit Bimbisara.",
+            "Oscar-winner M. M. Keeravani orchestrated the grand symphonic and mythological musical score.",
+            "Reunites Megastar Chiranjeevi with Trisha Krishnan nearly two decades after Stalin in a lavish celestial environment."
+        ],
+        "hints": [
+            "A courageous mortal defends celestial kingdoms against primordial demonic darkness.",
+            "A big-budget socio-fantasy spectacle built on divine mythology and grand visual effects.",
+            "The majestic Sanskrit title represents the Mother Earth or the all-bearing cosmos."
+        ]
+    },
+    {
+        "id": 333,
+        "title": "HIT: THE 3RD CASE",
+        "displayTitle": "HIT: The 3rd Case",
+        "teluguTitle": "హిట్: ది 3ర్డ్ కేస్",
+        "year": 2025,
+        "director": "Sailesh Kolanu",
+        "actors": [
+            "Nani",
+            "Srinidhi Shetty",
+            "Adivi Sesh",
+            "Rao Ramesh"
+        ],
+        "genres": [
+            "Thriller",
+            "Crime",
+            "Mystery"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2025-2026",
+        "clues": [
+            "A ruthless, hot-headed police cop named Arjun Sarkaar takes charge of a spine-chilling interstate serial murder conspiracy.",
+            "The third installment of Sailesh Kolanu's gripping Homicide Intervention Team cinematic universe.",
+            "Introduces the Natural Star in an intensely fierce, chain-smoking, unhinged police officer persona.",
+            "Sanu John Varghese and Mickey J. Meyer unite to create dark, brooding investigative tension."
+        ],
+        "hints": [
+            "SP Arjun Sarkaar tracks an elusive, brutal syndicate of killers across state borders.",
+            "The third forensic investigation chapter in the popular Telugu police procedural franchise.",
+            "The title matches the franchise acronym for the special Homicide Intervention Team."
+        ]
+    },
+    {
+        "id": 334,
+        "title": "HARI HARA VEERA MALLU",
+        "displayTitle": "Hari Hara Veera Mallu",
+        "teluguTitle": "హరి హర వీర మల్లు",
+        "year": 2025,
+        "director": "Jyothi Krishna",
+        "actors": [
+            "Pawan Kalyan",
+            "Bobby Deol",
+            "Nidhhi Agerwal",
+            "Nargis Fakhri"
+        ],
+        "genres": [
+            "Action",
+            "Period Drama",
+            "Historical"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2025-2026",
+        "clues": [
+            "Set in seventeenth-century Mughal India, a legendary Robin Hood-esque outlaw battles tyrannical imperial governors to liberate his oppressed countrymen.",
+            "The hero orchestrates an audacious heist to steal back the invaluable Koh-i-Noor diamond from Mughal imperial treasuries.",
+            "Features Bollywood veteran Bobby Deol playing the ruthless Mughal emperor Aurangzeb.",
+            "Oscar-winner M. M. Keeravani crafted authentic classical and patriotic compositions for this grand historical canvas."
+        ],
+        "hints": [
+            "A valiant rebel warrior stands tall against the imperial might of Mughal armies.",
+            "A magnum opus historical action drama set in the era of the Charminar and Red Fort.",
+            "The four-word title invokes divine names alongside the brave warrior's title and identity."
+        ]
+    },
+    {
+        "id": 335,
+        "title": "ROBINHOOD",
+        "displayTitle": "Robinhood",
+        "teluguTitle": "రాబిన్‌హుడ్",
+        "year": 2025,
+        "director": "Venky Kudumula",
+        "actors": [
+            "Nithiin",
+            "Sreeleela",
+            "Rajendra Prasad",
+            "Vennela Kishore"
+        ],
+        "genres": [
+            "Comedy",
+            "Action",
+            "Crime"
+        ],
+        "difficulty": "easy",
+        "popularity": "popular",
+        "era": "2025-2026",
+        "clues": [
+            "A flamboyant modern-day thief steals billions from corrupt multi-millionaires under the philosophy that all Indians are his brothers and sisters and their wealth belongs to the family.",
+            "Reunites Nithiin with his Bheeshma director Venky Kudumula in an action-packed comic heist entertainer.",
+            "Features witty situational humor, high-tech gadgetry, and lavish foreign heist sequences.",
+            "G. V. Prakash Kumar composed an energetic and playful soundtrack."
+        ],
+        "hints": [
+            "An eccentric burglar steals illicit wealth from corrupt magnates with hilarious justifications.",
+            "A stylish heist comedy that humorously exploits the Indian National Pledge.",
+            "The title borrows the universal name of the legendary English heroic outlaw who stole from the rich."
+        ]
+    },
+    {
+        "id": 336,
+        "title": "KUBERA",
+        "displayTitle": "Kubera",
+        "teluguTitle": "కుబేర",
+        "year": 2025,
+        "director": "Sekhar Kammula",
+        "actors": [
+            "Dhanush",
+            "Nagarjuna",
+            "Rashmika Mandanna",
+            "Jim Sarbh"
+        ],
+        "genres": [
+            "Drama",
+            "Crime",
+            "Thriller"
+        ],
+        "difficulty": "medium",
+        "popularity": "blockbuster",
+        "era": "2025-2026",
+        "clues": [
+            "Explores the jarring contrasts between extreme street poverty and towering billionaire tycoons in Mumbai's financial underbelly.",
+            "A disheveled, impoverished vagrant is swept into a high-stakes corporate financial war alongside an astute investigative officer.",
+            "Directed by acclaimed auteur Sekhar Kammula, showcasing unprecedented gritty, dark realism.",
+            "Devi Sri Prasad composed an atmospheric, grounded musical background score."
+        ],
+        "hints": [
+            "A destitute beggar and a suave powerful tycoon clash across the financial capital.",
+            "A hard-hitting socio-economic thriller examining the ruthless greed for immense wealth.",
+            "The title is the name of the Hindu mythological lord of supreme wealth and treasures."
+        ]
+    },
+    {
+        "id": 337,
+        "title": "SPIRIT",
+        "displayTitle": "Spirit",
+        "teluguTitle": "స్పిరిట్",
+        "year": 2026,
+        "director": "Sandeep Reddy Vanga",
+        "actors": [
+            "Prabhas",
+            "Trisha Krishnan",
+            "Vivek Oberoi"
+        ],
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2025-2026",
+        "clues": [
+            "An uncompromising, volatile IPS police officer wages an unhinged, violent personal crusade against organized narcotics cartels.",
+            "Directed by the unapologetic auteur behind Arjun Reddy and Animal, marking his maiden collaboration with the Rebel Star.",
+            "Known for intense character psychology, raw physical violence, and an iconic police badge journey.",
+            "Features high-octane background scores and visceral action choreography."
+        ],
+        "hints": [
+            "An intense, ruthless police cop takes law enforcement into his own hands.",
+            "A highly anticipated violent action drama showcasing the Rebel Star as a fierce IPS officer.",
+            "The single-word English title signifies both raw human willpower and alcoholic essence."
+        ]
+    },
+    {
+        "id": 338,
+        "title": "MAD SQUARE",
+        "displayTitle": "MAD Square",
+        "teluguTitle": "మ్యాడ్ స్క్వేర్",
+        "year": 2025,
+        "director": "Kalyan Shankar",
+        "actors": [
+            "Narne Nithin",
+            "Sangeeth Shobhan",
+            "Ram Nitin",
+            "Sri Gouri Priya"
+        ],
+        "genres": [
+            "Comedy",
+            "Youth"
+        ],
+        "difficulty": "easy",
+        "popularity": "popular",
+        "era": "2025-2026",
+        "clues": [
+            "The mischievous engineering college hostel trio of Manoj, Ashok, and Damodhar return for another round of hilarious youthful chaos and absurd rivalries.",
+            "The official comedic sequel to the 2023 sleeper college campus sensation.",
+            "Bheem Ceciroleo delivered foot-tapping youth party tunes and energetic college tracks.",
+            "Celebrated for lightning-fast one-liners and Sangeeth Shobhan's uproarious comedic expressions."
+        ],
+        "hints": [
+            "The wild engineering hostel gang continues their hilarious campus escapades.",
+            "The mathematical second power of the 2023 breakout youth blockbuster.",
+            "The title squares the three-letter acronym representing Manoj, Ashok, and Damodhar."
+        ]
+    },
+    {
+        "id": 339,
+        "title": "VAKEEL SAAB",
+        "displayTitle": "Vakeel Saab",
+        "teluguTitle": "వకీల్ సాబ్",
+        "year": 2021,
+        "director": "Venu Sriram",
+        "actors": [
+            "Pawan Kalyan",
+            "Nivetha Thomas",
+            "Anjali",
+            "Prakash Raj"
+        ],
+        "genres": [
+            "Courtroom Drama",
+            "Social Drama",
+            "Drama"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2020-2024",
+        "clues": [
+            "A brilliant, reclusive advocate struggling with personal bereavement returns to the bar to defend three independent working women wrongly accused of assault.",
+            "Marked the triumphant theatrical comeback of the Power Star after a three-year hiatus dedicated to public politics.",
+            "Features fiery courtroom verbal duels between the hero and veteran actor Prakash Raj regarding women's consent and moral policing.",
+            "Thaman S.'s soul-stirring soundtrack featured the empowering female anthem 'Maguva Maguva'."
+        ],
+        "hints": [
+            "Konidela Satyadev champions women's rights and bodily consent in a packed courtroom.",
+            "A powerful courtroom drama adapted from the Hindi film Pink with mass commercial elevation.",
+            "The two-word title is the respectful Hindustani/Telugu honorific for a courtroom advocate or lawyer."
+        ]
+    },
+    {
+        "id": 340,
+        "title": "SIMHA",
+        "displayTitle": "Simha",
+        "teluguTitle": "సింహా",
+        "year": 2010,
+        "director": "Boyapati Srinu",
+        "actors": [
+            "Nandamuri Balakrishna",
+            "Nayanthara",
+            "Sneha Ullal",
+            "Rahman"
+        ],
+        "genres": [
+            "Action",
+            "Drama"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2010-2014",
+        "clues": [
+            "A principled university professor who cannot tolerate injustice conceals a heroic rural past where his father ruled as a benevolent feudal lord.",
+            "A sensational summer blockbuster that resurrected the mass box-office reign of Nandamuri Balakrishna in powerful dual roles.",
+            "Chakri composed energetic mass anthems including 'Simhamanti Chinnode' and 'Bangaru Konda'.",
+            "Features earth-shattering dialogues, iconic axe-wielding fights, and roaring punch lines."
+        ],
+        "hints": [
+            "Dr. Narasimha arrives to eradicate factional feuds and protect university students.",
+            "Boyapati Srinu's landmark mass action milestone featuring the roar of the Nandamuri star.",
+            "The single-word title is the Telugu word for the king of the jungle."
+        ]
+    },
+    {
+        "id": 341,
+        "title": "F3: FUN AND FRUSTRATION",
+        "displayTitle": "F3: Fun and Frustration",
+        "teluguTitle": "ఎఫ్3: ఫన్ అండ్ ఫ్రస్ట్రేషన్",
+        "year": 2022,
+        "director": "Anil Ravipudi",
+        "actors": [
+            "Venkatesh",
+            "Varun Tej",
+            "Tamannaah Bhatia",
+            "Mehreen Pirzada"
+        ],
+        "genres": [
+            "Comedy",
+            "Family"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2020-2024",
+        "clues": [
+            "Two greedy men suffering from night-blindness and a persistent stuttering speech impediment team up to con an eccentric billionaire out of his fortune.",
+            "The high-voltage standalone sequel to the 2019 blockbuster comedy of co-brothers.",
+            "Features Venkatesh and Varun Tej delivering non-stop physical comedy alongside a fake family of swindlers.",
+            "Devi Sri Prasad provided a lively, foot-tapping comic musical score."
+        ],
+        "hints": [
+            "Venky and Varun hatch crazy schemes to solve their perpetual money troubles.",
+            "A madcap family comedy with the tagline: 'Triple the fun, triple the frustration'.",
+            "The title abbreviates the third tier of the comedy franchise followed by its alliterative subtitle."
+        ]
+    },
+    {
+        "id": 342,
+        "title": "SKANDA",
+        "displayTitle": "Skanda",
+        "teluguTitle": "స్కంద",
+        "year": 2023,
+        "director": "Boyapati Sreenu",
+        "actors": [
+            "Ram Pothineni",
+            "Sreeleela",
+            "Saiee Manjrekar",
+            "Srikanth"
+        ],
+        "genres": [
+            "Action",
+            "Drama"
+        ],
+        "difficulty": "easy",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "A loyal son orchestrates the daring kidnappings of the Chief Ministers of both Andhra Pradesh and Telangana to avenge his framed foster father.",
+            "Ram Pothineni underwent a massive physical transformation into a bulky, rugged mass action persona.",
+            "Features thunderous high-speed wirework action and gravity-defying machete combat sequences.",
+            "Thaman S. composed thunderous percussion tracks like 'Cult Mama' and 'Dandakadiyal'."
+        ],
+        "hints": [
+            "Bhaskar kidnaps the top political leaders of two Telugu states for family honor.",
+            "A high-octane mass action entertainer directed by Boyapati Sreenu with the subtitle 'The Attacker'.",
+            "The title is an epithet of the fierce Hindu war god Kartikeya or Murugan."
+        ]
+    },
+    {
+        "id": 343,
+        "title": "TIGER NAGESWARA RAO",
+        "displayTitle": "Tiger Nageswara Rao",
+        "teluguTitle": "టైగర్ నాగేశ్వరరావు",
+        "year": 2023,
+        "director": "Vamsee",
+        "actors": [
+            "Ravi Teja",
+            "Nupur Sanon",
+            "Gayatri Bhardwaj",
+            "Anupam Kher"
+        ],
+        "genres": [
+            "Action",
+            "Crime",
+            "Period Drama"
+        ],
+        "difficulty": "medium",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "Set in the 1970s and 1980s, chronicles the infamous life of an audacious burglar from the notorious theft village of Stuartpuram.",
+            "The protagonist shocks national intelligence agencies by daringly burglarizing the Prime Minister's residence and pulling off legendary train robberies.",
+            "Features veteran Bollywood actor Anupam Kher as an astute Intelligence Bureau chief tracking the elusive outlaw.",
+            "Ravi Teja adopted a fierce, unkempt retro criminal look showcasing ruthless physical agility."
+        ],
+        "hints": [
+            "The legendary Robin Hood of Stuartpuram who outfoxed the Madras Central Jail guards.",
+            "A gritty biographical action drama based on Andhra Pradesh's most celebrated train robber.",
+            "The title bears the notorious outlaw's feline moniker and given name."
+        ]
+    },
+    {
+        "id": 344,
+        "title": "DAS KA DHAMKI",
+        "displayTitle": "Das Ka Dhamki",
+        "teluguTitle": "దాస్ కా ధమ్కీ",
+        "year": 2023,
+        "director": "Vishwak Sen",
+        "actors": [
+            "Vishwak Sen",
+            "Nivetha Pethuraj",
+            "Rao Ramesh",
+            "Tarun Bhascker"
+        ],
+        "genres": [
+            "Comedy",
+            "Action",
+            "Thriller"
+        ],
+        "difficulty": "medium",
+        "popularity": "popular",
+        "era": "2020-2024",
+        "clues": [
+            "A humble hotel waiter is hired by a fraudulent pharmaceutical CEO's uncle to impersonate his lookalike nephew who mysteriously died.",
+            "The storyline pivots around a revolutionary breakthrough cancer medicine formula and treacherous corporate double-crosses.",
+            "Directed, produced, and headlined by Vishwak Sen showcasing both playful comedy and slick action swagger.",
+            "Features Leon James' hit party track 'Almost Padipoyinde Pilla' which trended heavily on digital reels."
+        ],
+        "hints": [
+            "Krishna Das takes over the identity of Dr. Sanjay Rudra with shocking consequences.",
+            "A dual-role action comedy featuring an arrogant corporate tycoon and a cheerful waiter.",
+            "The three-word rhyming title combines the hero's surname with a Hindi-slang warning of intimidation."
+        ]
+    },
+    {
+        "id": 345,
+        "title": "BANGAARRAJU",
+        "displayTitle": "Bangaarraju",
+        "teluguTitle": "బంగార్రాజు",
+        "year": 2022,
+        "director": "Kalyan Krishna Kurasala",
+        "actors": [
+            "Akkineni Nagarjuna",
+            "Naga Chaitanya",
+            "Ramya Krishna",
+            "Krithi Shetty"
+        ],
+        "genres": [
+            "Fantasy",
+            "Comedy",
+            "Drama"
+        ],
+        "difficulty": "easy",
+        "popularity": "blockbuster",
+        "era": "2020-2024",
+        "clues": [
+            "A deceased, playful village soul and his devoted wife are sent back from heaven by Yama to protect their naive grandson from village conspirators.",
+            "The colorful festive Sankranti sequel to the 2016 supernatural village fantasy Soggade Chinni Nayana.",
+            "Brought real-life father and son Akkineni Nagarjuna and Naga Chaitanya sharing screen space in traditional dhotis.",
+            "Anup Rubens provided festive rural melodies like 'Laddunda' and 'Vaasivaadi Tassadiyya'."
+        ],
+        "hints": [
+            "A charming celestial grandfather's spirit possesses his grandson to protect the ancestral Shivapuram temple.",
+            "A rural supernatural romantic comedy starring the Akkineni duo.",
+            "The single-word title is the legendary grandfather's golden-spirited name."
+        ]
+    },
+    {
+        "id": 346,
+        "title": "MAIL",
+        "displayTitle": "Mail",
+        "teluguTitle": "మెయిల్",
+        "year": 2021,
+        "director": "Uday Gurrala",
+        "actors": [
+            "Priyadarshi",
+            "Harshith Malgireddy",
+            "Mani Aegurla",
+            "Sri Gouri Priya"
+        ],
+        "genres": [
+            "Comedy",
+            "Slice of Life",
+            "Drama"
+        ],
+        "difficulty": "medium",
+        "popularity": "cult",
+        "era": "2020-2024",
+        "clues": [
+            "Set in 2005 rural Telangana, a small-town boy is mesmerized by the arrival of the village's very first computer in a gaming center.",
+            "The naive college youth believes he won a two-crore lottery when he receives a fraudulent phishing email in his newly opened inbox.",
+            "Produced by Swapna Cinema, capturing innocent rural charm, dial-up internet nostalgia, and cyber gullibility.",
+            "Priyadarshi plays Hybath, the proud owner of the village's single computer center charging money to touch the keyboard."
+        ],
+        "hints": [
+            "Ravi falls for a classic cyber scam after creating an online account in his rural gaming center.",
+            "A heartwarming period comedy exploring early internet awareness in 2005 Telangana.",
+            "The short four-letter title is named after the revolutionary digital electronic postal service."
+        ]
+    },
+    {
+        "id": 347,
+        "title": "PARESHAN",
+        "displayTitle": "Pareshan",
+        "teluguTitle": "పరేషాన్",
+        "year": 2023,
+        "director": "Rupak Ronaldson",
+        "actors": [
+            "Thiruveer",
+            "Pavani Karanam",
+            "Bunty Bajaj",
+            "Ravi Samala"
+        ],
+        "genres": [
+            "Comedy",
+            "Slice of Life"
+        ],
+        "difficulty": "medium",
+        "popularity": "cult",
+        "era": "2020-2024",
+        "clues": [
+            "Set in the Singareni coal belt of Mancherial, an aimless youth loses money given by his father and gets trapped in an endless spiral of hilarious blunders.",
+            "From illicit pawn shops to alcohol escapades, the protagonist and his wacky bunch of friends create chaotic comedy.",
+            "Rana Daggubati presented this authentic indie dark comedy celebrating native Telangana dialects.",
+            "Yashwanth Nag supplied quirky, authentic indie folksy tunes that complement the rural youth chaos."
+        ],
+        "hints": [
+            "Isaac gets entangled in comic troubles in a coal-mining town trying to settle a loan.",
+            "A raw and hilarious Telangana buddy comedy set in the Singareni coal fields.",
+            "The single-word Hyderabadi/Deccani title means deep mental distress or trouble."
+        ]
+    },
+    {
+        "id": 348,
+        "title": "CHANDAMAMA KATHALU",
+        "displayTitle": "Chandamama Kathalu",
+        "teluguTitle": "చందమామ కథలు",
+        "year": 2014,
+        "director": "Praveen Sattaru",
+        "actors": [
+            "Lakshmi Manchu",
+            "Ameet Rao",
+            "Naresh",
+            "Naga Shourya"
+        ],
+        "genres": [
+            "Drama",
+            "Anthology",
+            "Romance"
+        ],
+        "difficulty": "medium",
+        "popularity": "critically-acclaimed",
+        "era": "2010-2014",
+        "clues": [
+            "Intertwines eight disparate human stories across Hyderabad, from an aging writer and a supermodel to a beggar dreaming of building a home.",
+            "Won the prestigious National Film Award for Best Feature Film in Telugu at the 62nd National Film Awards.",
+            "Features heartwarming subplots including senior lovers rekindling their teenage romance after decades of separation.",
+            "Mickey J. Meyer composed poetic and evocative melodies that knit the diverse emotional narratives together."
+        ],
+        "hints": [
+            "Eight different emotional urban lives intersect in a poetic tapestry of human hope and longing.",
+            "A critically acclaimed hyperlink anthology film that won the National Award for Telugu cinema.",
+            "The two-word title is named after the beloved childhood bedtime storybook magazine of the Moon."
+        ]
+    },
+    {
+        "id": 349,
+        "title": "KESHAVA",
+        "displayTitle": "Keshava",
+        "teluguTitle": "కేశవ",
+        "year": 2017,
+        "director": "Sudheer Varma",
+        "actors": [
+            "Nikhil Siddharth",
+            "Ritu Varma",
+            "Isha Koppikar",
+            "Rao Ramesh"
+        ],
+        "genres": [
+            "Action",
+            "Thriller",
+            "Crime"
+        ],
+        "difficulty": "medium",
+        "popularity": "cult",
+        "era": "2015-2019",
+        "clues": [
+            "A law student with dextrocardia (an inverted heart condition where emotional stress or elevated heart rate can cause instantaneous death) avenges his family's hit-and-run murderers.",
+            "Because he can never get angry or excited, the protagonist must execute his revenge with cold-blooded calm and calculative precision.",
+            "Isha Koppikar plays a sharp police detective deployed to track down the mysterious killer who murders corrupt police officers.",
+            "Sunny M.R. delivered an atmospheric, brooding musical score with striking widescreen visuals."
+        ],
+        "hints": [
+            "A student who cannot let his heart beat fast hunts down the police officers who killed his family.",
+            "A stylish neo-noir revenge thriller directed by the maker of Swamy Ra Ra.",
+            "The title is the name of the protagonist, which is also an ancient title of Lord Vishnu."
+        ]
+    },
+    {
+        "id": 350,
+        "title": "MEEKU MAATHRAME CHEPTHA",
+        "displayTitle": "Meeku Maathrame Cheptha",
+        "teluguTitle": "మీకు మాత్రమే చెప్తా",
+        "year": 2019,
+        "director": "Shammeer Sultan",
+        "actors": [
+            "Tharun Bhascker",
+            "Abhinav Gomatam",
+            "Vani Bhojan",
+            "Anasuya Bharadwaj"
+        ],
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "difficulty": "medium",
+        "popularity": "popular",
+        "era": "2015-2019",
+        "clues": [
+            "Two days before his grand wedding, a groom's private intimate smartphone video is leaked online, sending him and his best friend on a mad dash to stop the wedding from collapsing.",
+            "Marked the lead acting debut of national award-winning director Tharun Bhascker.",
+            "Produced by Vijay Deverakonda under his maiden production banner King of the Hill Entertainment.",
+            "Abhinav Gomatam provides non-stop hilarious situational support as the frustrated best buddy Cammy."
+        ],
+        "hints": [
+            "Rakesh and his loyal friend try every desperate tech hack to delete a leaked video before his bride watches it.",
+            "A situational comedy revolving around digital smartphone privacy and pre-wedding panic.",
+            "The four-word conversational Telugu title translates to: 'I am telling this only to you'."
+        ]
     }
 ];
 
